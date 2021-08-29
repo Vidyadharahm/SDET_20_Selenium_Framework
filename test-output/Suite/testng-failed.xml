@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-Runner-1(failed)">
+    <classes>
+      <class name="com.vtiger.vd.organizationtest.TC_13_14_15_CreateOrg">
+        <methods>
+          <include name="configBm"/>
+          <include name="createOrgCheckNotifyTest"/>
+          <include name="configAm"/>
+          <include name="createOrgRatingTest"/>
+          <include name="createOrgWithNotifyTest"/>
+          <include name="configBc"/>
+          <include name="configAc"/>
+        </methods>
+      </class> <!-- com.vtiger.vd.organizationtest.TC_13_14_15_CreateOrg -->
+    </classes>
+  </test> <!-- Test-Runner-1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
